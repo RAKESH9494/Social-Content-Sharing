@@ -1,0 +1,484 @@
+.account{
+    float: right;
+    margin-right:160px;
+    background-color: #dcd7e0;
+    border-radius: 5px;
+    padding:2px;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    margin-top: 10px;
+}
+.account span{
+    font-size:15px;
+}
+.userIcon{
+    height: 30px;
+    margin-right:10px;
+}
+.login {
+    height:617px;
+    width: 100%;
+    background: radial-gradient(#653d84, #332042);
+    position: relative;
+}
+.login_box {
+    width: 1050px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  width: 41%;
+  height: 100%;
+  padding: 25px 25px;
+  
+}
+.login_box .right{
+  width: 59%;
+  height: 100%  
+}
+.left .top_link a {
+    color: #452A5A;
+    font-weight: 400;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.left .top_link{
+  height: 20px;
+  margin-left:150px;
+  margin-top:-10px;
+
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+.left h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.left input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background: #583672;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+.right {
+	background: linear-gradient(212.38deg, rgba(242, 57, 127, 0.7) 0%, rgba(175, 70, 189, 0.71) 100%);
+	color: #fff;
+	position: relative;
+}
+
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
+.HomeBody{
+  /* background: linear-gradient(212.38deg, rgba(242, 57, 127, 0.7) 0%, rgba(175, 70, 189, 0.71) 100%); */
+  background-image:url("C:\Users\KARTHIK'\Desktop\iTsMe\Projects\DC_SocialMedia\src\wp9218674-4k-dark-landscape-wallpapers.png");
+  width: 100%;
+  height:617px;
+  background-size: 100% 100%;
+}
+.HomeHeader{
+  width:100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  height:50px;
+  padding-top:5px;
+}
+.elements{
+  float: right;
+  background-color: #dcd7e0;
+  padding:5px;
+  border-radius:1rem;
+  padding-left:8px;
+}
+.textfield{
+  text-align: center;
+  font-family:Georgia;
+  margin-top: 10px;
+}
+.logo{
+ background-color: #dcd7e0;
+ width:160px;
+ font-family:'Lucida Sans'; 
+ text-align: center;
+ border-radius:3px;
+ padding:2px;
+ margin-left:5px;
+}
+.imagegBlock{
+  width:500px;
+  height:300px;
+}
+.pageNavigation{
+  padding-top:15px;
+  margin-top: 10px;
+  width: 500px;
+  height: 100px;
+}
+.btn-group a{
+  color: white; /* White text */
+  padding:5px 5px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  text-decoration: none;
+  margin-right:50px;
+  margin-left:30px;
+}
+
+.btn-group a:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+.imgSize{
+  width:40px;
+  height:40px;
+}
+
+.btn-group a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background:#332042;
+  transition: width .3s;
+}
+.btn-group a:hover::after {
+  width:90%;
+}
+.Homefooter{
+  height:50px;
+  width: 100%;
+  margin-top:55px;
+}
+.logo2{
+  float: right;
+  color: #dcd7e0;
+  margin-top:7px;
+  padding:2px;
+  font-size:20px;
+  border-radius:5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Mailimg{
+  margin-top: 2px;
+  margin-left: 10px;
+  width:45px;
+  height:45px;
+  padding:5px;
+}
+.selectedImg{
+  margin-top:100px;
+  text-align: center;
+  background-color: #dcd7e0;
+  width:200px;
+  margin-left:40%;
+  height:200px;
+  border-radius:100%;
+}
+.selectedImg img{
+  width:190px;
+  height:190px;
+  margin-top:5px;
+  border:100px ;
+  border-radius: 100%;
+}
+.uploadBtn{
+  margin-top: 10px;
+  margin-left:290px;
+}
+.right-text1{
+  font-size: 10px;
+  margin-top:200px;
+  text-align: center;
+}
+.imagegBlock {
+  width: 100%;
+  margin-left:0px;
+}
+.imagegBlock img{
+  width:190px;
+  height:190px;
+  margin-top:25px;
+  border:100px ;
+  border-radius:50%;
+
+}
+.Vcontainer{
+  width: 100%;
+  height:85%;
+  overflow-y:auto;
+}
+.videodiv{
+  height:300px;
+  width: 300px;
+}
+.videodiv p{
+  color: wheat;
+}
+.viddiplay{
+  background-color: black;
+align-items: center;
+}
+.imgContainer{
+  padding-top: 1px;
+  width: 400px;
+  height:400px;
+  background-color:#452A5A;
+}
+.imgContainer1{
+  margin-top:50px;
+    padding-top: 1px;
+  width: 400px;
+  height:400px;
+}
+.Pcontainer{
+  width: 100%;
+  height:90%;
+  padding: 10px;
+  overflow-y:scroll;
+}
+.postdata{
+  width: 99%;
+  height:300px;
+}
+.postdata img{
+  width:97%;
+  height:90%;
+}
+#uplBtn{
+  margin-top: -5px;
+  height: 35px;
+  margin-right:300px;
+}
+.postDescription{
+  margin-top:-25px;
+  width: 97%;
+  background-color:#ab79d1;
+  height:40px;
+}
+.opt1{
+  float: left;
+  margin-top: 50px;
+}
+.opt1 li {
+  color:rgb(241, 244, 255);
+  padding:5px;
+  font-family:'Times New Roman';
+  border-radius:10px;
+
+}
+.opt1 li:hover{
+  background-color:#ab79d1;
+
+}
+.opt1 li a{
+  color: rgb(189, 210, 255);
+  text-decoration: none;
+}
+.opt2 {
+  float: right;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+.opt2 li{
+  color:black;
+  padding:5px;
+  font-family:'Times New Roman';
+  border-radius:10px;
+}
+.opt2 li:hover{
+  background-color:#ab79d1;
+}
+.opt2 li a{
+  text-decoration: none;
+
+  color: rgb(189, 210, 255);
+}
+.userName{
+  margin-right:40px;
+  color: #1a1e2c;
+  font-family: 'Times New Roman';
+}
+.postblock{
+  margin-top:20px;
+  width: 50%;
+  height:500px;
+}
+.postDescription input{
+  width: 100%;
+  height:100%;
+}
+.textblock{
+  font-weight: bold;
+  color: antiquewhite;
+  width:500px;
+  height:120px;
+  overflow-y: auto;
+}
+.textblock1{
+  margin-top:100px;
+  width:500px;
+  height:120px;
+}
+.textblock1 input{
+  margin-top:10px;
+  width:70%;
+  height:60px;
+}
+.textblock1 button{
+  margin-top:10px;
+}
+.Pcontainer1{
+  width: 100%;
+  height:85%;
+  padding: 10px;
+}
+.postdata1{
+  padding:10px;
+  width:600px;
+  height:300px;
+}
+.postDescription1{
+  padding-top: 10px;
+  width: 50%;
+  height: 200px;
+}
+.mainpage{
+width: 100%;
+height:52 0px;
+}
+.contact1{
+	display: flex;
+    height: 100%;
+    width:50%;
+    margin: auto;
+}
+.contact1 input{
+  background-color:rgb(155, 155, 229);
+  border-radius: 10px;
+}
+.HomeBody1{
+  background: red;
+}
+.HomeHeader1{
+  padding-top:10px;
+}
+.btngrp {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+.btngrp ul li{  
+  padding: 20px;
+  display:inline;
+}
+.btngrp ul li button{
+  background-color: #dcd7e0; 
+  border: none;
+  padding:5px;
+  width:200px;
+  border-radius: 100px;
+}
+.btngrp ul li button:hover{
+  background-color: #ab79d1;
+}
+.btngrp ul li button:active{
+  background-color: rgb(121, 99, 219);
+}
+.displyProfile{
+  height:455px; 
+  width: 100%;
+}
+.page1{
+ 
+  width: 100%;
+  height:460px;
+
+}
+.mylist {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+
+}
+.mylist ul li{
+  padding: 20px;
+  display:inline;
+}
+.mylist ul li button{
+  background-color: #dcd7e0;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding:5px;
+  width:100px;
+}
+.mylist ul li button:hover{
+background-color: #653d84;
+}
+.mylist ul li button:active{
+  background-color: #452A5A;
+}
+.myfeed{
+  margin-top: 20px;
+  width: 50%;
+  font-weight: bold;
+  height:365px;
+  overflow-y: auto;
+}
+/* .textcontainer{
+
+}
+.videocontainer{
+ 
+} */
+.delebtn{
+  border:none;
+  border-radius: 50px;
+  padding: 5px;
+  width: 70px;
+}
+.delebtn:hover{
+  background-color: red;
+}
+.about1 p{
+  color: rgb(179, 154, 154);
+  font-size: 20px;
+}

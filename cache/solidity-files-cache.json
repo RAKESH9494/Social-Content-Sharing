@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\KARTHIK'\\Desktop\\iTsMe\\Projects\\DC_SocialMedia\\contracts\\SocialMeadia.sol": {
+      "lastModificationDate": 1680360626126,
+      "contentHash": "6875d6836baa369e30732261babfceb8",
+      "sourceName": "contracts/SocialMeadia.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "SocialMeadia"
+      ]
+    }
+  }
+}
